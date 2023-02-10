@@ -1,0 +1,516 @@
+* {
+  margin: 0px;
+}
+body {
+  line-height: 22px;
+  width: 100%;
+  font-size: 12px;
+  border: 1px rgb(197, 194, 194) solid;
+  margin: 30px;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+/* hide datail of job information and viewmore viewless button */
+.hide {
+  display: none !important;
+}
+.btn-warning {
+  font-size: 10px;
+}
+section > .container {
+  width: 100%;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+/* style for banner */
+#banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0;
+}
+.fullname {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* style for NAV */
+#nav-bar {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 12px;
+
+  margin-top: -20px;
+  /*   border-bottom: 1px gainsboro solid; */
+}
+
+#nav-bar div {
+  justify-content: center;
+  padding: 0 10px;
+  width: 150px;
+  text-decoration: none;
+  border: 1px rgb(243, 233, 233) solid;
+  border-top: none;
+}
+#nav-bar a {
+  color: black;
+}
+#nav-bar a:link {
+  text-decoration: none;
+}
+#nav-bar a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#nav-bar i {
+  color: #199cdb;
+}
+/* .info-nav-bar {
+  text-transform: none;
+  margin-top: -17px;
+  border-right: none;
+}
+.name-nar-bar {
+  font-size: 18px;
+}
+.job-nar-bar {
+  font-size: 12px;
+  color: grey;
+} */
+.avt-defaul {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 7px white solid;
+  margin: -70px 0;
+  z-index: 3;
+  position: absolute;
+  justify-content: center;
+}
+/* CSS grid for ABOUT */
+#about {
+  position: relative;
+}
+
+#about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+}
+
+#personal-info {
+  padding: 50px 0px 30px 50px;
+  background-color: rgb(241, 241, 237);
+  justify-content: left;
+}
+.hidden {
+  display: none;
+}
+#target {
+  padding: 50px 10% 30px 20%;
+  /*   background-color: rgb(236, 236, 234); */
+}
+.mt-40 {
+  list-style: none;
+  padding-left: 0;
+}
+/* overall  */
+.section-title {
+  margin-bottom: 30px;
+}
+.tittle-name {
+  font-weight: bold;
+}
+.time {
+  font-style: italic;
+}
+.list {
+  list-style: " - ";
+  padding-left: 0;
+}
+
+/* CSS grid for job-info */
+
+#job-info .container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 1fr auto;
+  /*  background-color: orchid; */
+  gap: 20px;
+  justify-content: center;
+  padding: 30px 0;
+}
+.big-list {
+  padding-left: 20px;
+}
+.tittle-name {
+  position: relative;
+}
+/* change color of list style */
+.tittle-name::before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #199cdb;
+  content: "";
+  left: -16px;
+  top: 9px;
+  border: white 1px solid;
+}
+.big-title {
+  margin: 20px 0 20px 20px;
+}
+/* css for icon */
+.ic-toolbox,
+.ic-pencil,
+.ic-tools-2,
+.ic-mic,
+.ic-telescope {
+  text-align: center;
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: xx-large;
+}
+
+.container-title {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  border: 1px grey solid;
+  align-content: start;
+}
+
+.detail {
+  grid-column: 1/3;
+  align-content: start;
+  margin: 20px;
+}
+/* .activity,
+.education,
+.hobby {
+  height: fit-content;
+} */
+
+/* style for blue button */
+.button {
+  display: flex;
+}
+.blue-button {
+  background-color: #199cdb;
+  border-radius: 10%;
+  width: 70px;
+  height: fit-content;
+  text-align: center;
+}
+/* order of items */
+.experience {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.education {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.activity {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.hobby {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.skill {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.language {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+/* add level for KY NANG/ NGON NGU */
+.lan {
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 35px;
+}
+.ielts .lan1 {
+  background: #199cdb;
+}
+.ielts .lan2 {
+  background: #199cdb;
+}
+.ielts .lan3 {
+  background: grey;
+}
+
+.jlpt .lan1 {
+  background: #199cdb;
+}
+.jlpt .lan2 {
+  background: #199cdb;
+}
+.jlpt .lan3 {
+  background: grey;
+}
+.html .lan1 {
+  background: #199cdb;
+}
+.html .lan2 {
+  background: grey;
+}
+.html .lan3 {
+  background: grey;
+}
+.Javasript .lan1 {
+  background: #199cdb;
+}
+.Javasript .lan2 {
+  background: #199cdb;
+}
+.Javasript .lan3 {
+  background: grey;
+}
+.nodeJS .lan1 {
+  background: #199cdb;
+}
+.nodeJS .lan2 {
+  background: #199cdb;
+}
+.nodeJS .lan3 {
+  background: grey;
+}
+
+.Bootstrap .lan1 {
+  background: #199cdb;
+}
+.Bootstrap .lan2 {
+  background: grey;
+}
+.Bootstrap .lan3 {
+  background: grey;
+}
+
+/* circle for hobby */
+.hobby .detail {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  gap: 5px;
+  text-align: center;
+}
+.icon {
+  border: 0.5px #199cdb solid;
+  width: 50px;
+  height: 30px;
+  size: larger;
+  padding-top: 8px;
+  border-radius: 50%;
+}
+
+/* change size of img */
+#certificate .container {
+  padding: 30px 0;
+}
+/* #certificate .section-title {
+  padding-left: 187px;
+} */
+#certificate img {
+  width: 150px;
+  height: auto;
+}
+#certificate .section-title {
+  margin-left: 14%;
+}
+.certificate-detail {
+  display: grid;
+  grid-template-columns: 395px 395px;
+  grid-template-rows: 1fr 1fr;
+
+  gap: 20px;
+  justify-content: center;
+}
+.image-certificate {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  border-bottom: 1px #d6c08d solid;
+}
+
+h2 {
+  font-size: 12px;
+}
+.image-certificate ul {
+  list-style: " - ";
+  padding-left: 10px;
+}
+
+/* css grid for project */
+#project .container {
+  padding: 30px 0;
+}
+#project .section-title {
+  margin-left: 14%;
+}
+.project-detail {
+  display: grid;
+  grid-template-columns: repeat(3, 260px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.image-project {
+  position: relative;
+}
+.image-project img {
+  width: 100%;
+  height: auto;
+}
+.project-blue-button {
+  background-color: #199cdb;
+  border-radius: 35%;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+.project-time {
+  display: flex;
+  padding: 10px 0;
+  gap: 30px;
+  border: 1px rgb(238, 237, 237) solid;
+}
+.project-name {
+  padding: 10px 0 0px 10px;
+  border: 1px rgb(238, 237, 237) solid;
+}
+.project-name a {
+  text-decoration: none;
+  color: black;
+}
+table {
+  border-collapse: collapse;
+
+  width: 100%;
+  height: 250px;
+}
+th {
+  width: 100px;
+  /*  top: 0; */
+  text-align: left;
+  padding-left: 5px;
+}
+tr {
+  border: 1px rgb(238, 237, 237) solid;
+
+  margin-top: 10px;
+  padding-bottom: 20px;
+  height: fit-content;
+  vertical-align: top;
+}
+
+/* footer */
+#footer i {
+  font-size: x-large;
+  color: #199cdb;
+}
+.footer-list {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+.footer-list a {
+  padding-left: 30px;
+}
+#footer a:link {
+  text-decoration: none;
+}
+#footer a:hover {
+  cursor: pointer;
+}
+
+/* style for digital-CV */
+.digital-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  border: #1936db solid 10px;
+  background-color: #1936db;
+}
+.section {
+  background-color: #f7f7f7;
+  color: black;
+}
+
+/*  bố cục trên màn laptop */
+.timeline {
+  grid-row: 1/3;
+  grid-column: 3/4;
+}
+.teams {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.digital-container .big-title {
+  padding-bottom: 20px;
+  border-bottom: rgb(233, 224, 224) solid 2px;
+  color: #1936db;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
+
+/* grid cho từng phần nhỏ */
+.goal,
+.team,
+.pri,
+.period {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding-top: 10px;
+}
+.goal {
+  border-bottom: rgb(233, 224, 224) solid 2px;
+}
+.goals i {
+  justify-self: center;
+}
+.period {
+  border-bottom: rgb(113, 194, 247) dotted 2px;
+}
+.grid {
+  margin: 0px 20px;
+  padding: 0;
+}
+.scopes > .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* tao vong tron cho project date */
+.circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #c0a3f7;
+  border: #6944ad solid 2px;
+  padding: 7px 6px;
+  color: #f7f7f7;
+  margin: 0 5px 5px 10px;
+}
+.timeline-detail {
+  margin-left: 10px;
+}

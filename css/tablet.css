@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+  #nav-bar div {
+    padding: 0 10px;
+    width: 100%;
+  }
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .experience {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .education {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .activity {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .hobby {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .skill {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .language {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  #personal-info {
+    padding: 30px 20px;
+  }
+
+  #target {
+    padding: 30px 20px 30px 0px;
+  }
+
+  .activity,
+  .language,
+  .skill,
+  .education,
+  .hobby {
+    height: fit-content;
+  }
+
+  .avt-defaul {
+    display: none;
+  }
+
+  .certificate-detail {
+    grid-template-columns: repeat(2, 50%);
+  }
+  .image-certificate {
+    display: inline-block;
+  }
+  #certificate img {
+    width: 100%;
+  }
+  #certificate .section-title {
+    margin-left: 0;
+  }
+  /* css grid for project */
+
+  #project .section-title {
+    margin-left: 0;
+  }
+  .project-detail {
+    grid-template-columns: repeat(3, 175px);
+  }
+  .project-time {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  th {
+    width: 10%;
+    padding-left: 0px;
+  }
+  td {
+    padding-left: 0;
+  }
+
+  /* style for digital-cv.html */
+  .digital-container {
+    display: block;
+    border: #1936db solid 20px;
+  }
+  .section {
+    padding-bottom: 30px;
+  }
+  .big-title {
+    padding: 20px 0px;
+  }
+  .goal,
+  .team,
+  .pri,
+  .period {
+    display: block;
+  }
+  .digital-container i {
+    display: block;
+    text-align: center;
+  }
+}

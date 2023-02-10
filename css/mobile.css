@@ -1,0 +1,63 @@
+@media (max-width: 500px) {
+  #nav-bar div {
+    padding: 0 10px;
+    width: 100%;
+  }
+  #about .container {
+    display: block;
+  }
+
+  #personal-info {
+    padding: 30px 20px;
+    background-color: rgb(241, 241, 237);
+    justify-content: left;
+  }
+
+  #target {
+    padding: 30px 20px;
+    /*   background-color: rgb(236, 236, 234); */
+  }
+
+  .activity,
+  .language,
+  .skill,
+  .education,
+  .hobby {
+    height: fit-content;
+  }
+
+  .avt-defaul {
+    display: none;
+  }
+  #job-info .container {
+    display: block;
+
+    justify-content: center;
+  }
+  .certificate-detail {
+    display: block;
+    padding: 30px;
+  }
+  #certificate .container {
+    padding-bottom: 0;
+  }
+
+  .project-detail {
+    display: block;
+  }
+
+  .project-time {
+    display: block;
+    padding: 10px 30px;
+  }
+
+  th {
+    width: 20%;
+    padding-left: 0px;
+  }
+
+  /* style for digital-cv */
+  .scopes > .grid {
+    display: block;
+  }
+} ;
